@@ -1,0 +1,14 @@
+packages:
+  - apps/*
+  - packages/*
+minimumReleaseAgeExclude:
+  - hono@4.13.21
+  - '@cloudflare/build-output-utils@1.0.0-rc.4'
+  - '@cloudflare/config@1.0.0-rc.4'
+  - '@cloudflare/runtime-types@0.1.33'
+  - '@cloudflare/vite-plugin@2.0.0-rc.4'
+  - cf@1.0.0-rc.4
+  - miniflare@5.20261123.0-beta
+onlyBuiltDependencies:
+  - esbuild
+  - workerd

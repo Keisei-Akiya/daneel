@@ -1,0 +1,17 @@
+{
+  "name": "@daneel/frontend", "version": "0.0.0", "private": true, "type": "module",
+  "scripts": { "dev": "vite dev --port 3000", "build": "vite build" },
+  "dependencies": {
+    "@daneel/bff": "workspace:*",
+    "@tanstack/solid-router": "^1.170.43",
+    "@tanstack/solid-start": "^1.169.7",
+    "solid-js": "^1.9.10"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "^2.0.0-rc.4",
+    "vite": "^8.0.0",
+    "vite-plugin-solid": "^2.11.11",
+    "cf": "^1.0.0-rc.4",
+    "typescript": "^5.9.0"
+  }
+}

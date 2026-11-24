@@ -10,4 +10,4 @@ Default five-role vocabulary (`needs-triage`, `needs-info`, `ready-for-agent`, `
 
 ### Domain docs
 
-Multi-context (monorepo: frontend / backend / infra). Root `GLOSSARY-MAP.md` points to per-context `GLOSSARY.md`. See `docs/agents/domain.md`.
+Multi-context (pnpm monorepo: apps/frontend, apps/bff, apps/backend, packages/contracts。依存は frontend → bff → backend → contracts。docs/adr/0015). Root `GLOSSARY-MAP.md` points to per-context `GLOSSARY.md`. See `docs/agents/domain.md`.
