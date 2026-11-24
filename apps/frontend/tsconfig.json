@@ -9,12 +9,7 @@
     "strict": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "types": [
-      "vite/client",
-      "void/env"
-    ]
+    "types": ["vite/client", "void/env"]
   },
-  "include": [
-    "src"
-  ]
+  "include": ["src"]
 }

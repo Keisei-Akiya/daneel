@@ -1,3 +1,3 @@
-import { defineEnv } from 'void/env';
+import { defineEnv } from "void/env";
 
 export default defineEnv({});

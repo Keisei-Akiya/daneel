@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite'
-import { tanstackStart } from '@tanstack/solid-start/plugin/vite'
-import viteSolid from 'vite-plugin-solid'
-import { voidPlugin } from 'void'
+import { defineConfig } from "vite";
+import { tanstackStart } from "@tanstack/solid-start/plugin/vite";
+import viteSolid from "vite-plugin-solid";
+import { voidPlugin } from "void";
 
 export default defineConfig({
   plugins: [voidPlugin(), tanstackStart(), viteSolid({ ssr: true })],
-})
+});

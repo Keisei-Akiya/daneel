@@ -1,1 +1,1 @@
-export type ChatChunk = { index: number; text: string }
+export type ChatChunk = { index: number; text: string };

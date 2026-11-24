@@ -1,8 +1,7 @@
 name: deploy
 
+# デプロイ先とシークレットが整うまでは、手動実行のみとする。
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 concurrency:
