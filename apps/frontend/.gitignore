@@ -1,0 +1,10 @@
+.void-wrangler.jsonc
+node_modules
+dist
+.void
+.wrangler
+.cloudflare
+.env
+.env.*
+*.tsbuildinfo
+.DS_Store

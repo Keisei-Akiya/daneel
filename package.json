@@ -1,1 +1,8 @@
-{ "name": "daneel", "private": true, "type": "module" }
+{
+  "name": "daneel",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "aube@2.10.1",
+  "scripts": {}
+}

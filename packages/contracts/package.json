@@ -1,1 +1,10 @@
-{ "name": "@daneel/contracts", "version": "0.0.0", "private": true, "type": "module", "exports": { ".": "./src/index.ts" } }
+{
+  "name": "@daneel/contracts",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {}
+}

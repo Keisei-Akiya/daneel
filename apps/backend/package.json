@@ -1,1 +1,13 @@
-{ "name": "@daneel/backend", "version": "0.0.0", "private": true, "type": "module", "exports": { ".": "./src/index.ts" }, "dependencies": { "@daneel/contracts": "workspace:*" } }
+{
+  "name": "@daneel/backend",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {},
+  "dependencies": {
+    "@daneel/contracts": "workspace:*"
+  }
+}

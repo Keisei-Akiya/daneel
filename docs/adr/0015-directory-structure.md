@@ -4,7 +4,7 @@ Status: Accepted (2026-11-24)
 
 ## 決定
 
-pnpm workspace で、次の 4 つのパッケージに分ける。
+aube のワークスペース（ADR 0016）で、次の 4 つのパッケージに分ける。
 
 ```
 apps/
@@ -46,9 +46,9 @@ frontend → bff → backend → contracts
 
 ## 検証（scratch で実施、2026-11-24）
 
-- 設定は `wrangler.jsonc` ではなく `cloudflare.config.ts`（`cf` CLI）を使う（ユーザーの指示）。
+- （0017 で Void に置き換え済み。`cloudflare.config.ts` と `cf` は削除した）設定は `wrangler.jsonc` ではなく `cloudflare.config.ts`（`cf` CLI）を使う（ユーザーの指示）。
   `cf migrate` で変換し、`cf@1.0.0-rc.4` と `@cloudflare/vite-plugin@2.0.0-rc.4` を入れた。
-- `pnpm build`（`apps/frontend`）は `cf` 構成でも通った。
+- `aube run build`（`apps/frontend`）は `cf` 構成でも通った。
   Worker の入口は `.cloudflare/output/v1/workers/default/bundle/index.js` の 1 つ。
 - 旧構成（wrangler）の PoC では、workerd 上で `/` の SSR は 200、`/api/ping` は `{"ok":true}`。
   `/api/chat` の SSE は、約 0.4 秒ごとに 1 件ずつ届いた（バッファされない）。
